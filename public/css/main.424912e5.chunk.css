@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui, sans-serif;
+}
+
+.BookItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.BookItem .order {
+    padding: 0 10px 0 0;
+}
+
+.BookItem .book-cover {
+    padding-right: 10px;;
+}
+
+.BookItem .book-info {
+    flex-grow: 2;
+    text-align: left;
+}
+
+.BookItem .book-info .book-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.BookItem .book-info .book-description {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.BookItem .book-action button {
+    padding: 5px 10px;
+    margin: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui, sans-serif;
+}
+
+.Transaction {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Transaction .order {
+    padding-right: 10px;
+}
+
+.Transaction .username, .Transaction .bookTitle, .Transaction .transaction-state {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.Transaction .username {
+    font-weight: 500;
+}
+
+.Transaction .transaction-action button {
+    padding: 5px 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui, sans-serif;
+}
+
+.User {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.User .order {
+    padding-right: 10px;
+}
+
+.User .username {
+    flex-grow: 2;
+    text-align: left;
+    font-weight: 500;
+}
+
+.User .user-action button {
+    padding: 5px 10px;
+}
+
+/*# sourceMappingURL=main.424912e5.chunk.css.map*/
